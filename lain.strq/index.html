@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to The Wired</title>
+    <style>
+        /* styles.css */
+        body {
+            background-color: #ffeb3b;
+            color: #000000;
+            font-family: "Comic Sans MS", "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 3px solid #0000ff;
+            padding: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            background-color: black;
+            padding: 20px;
+            border-bottom: 3px solid #0000ff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+            color: #ff0000;
+            text-shadow: 2px 2px #ffffff;
+        }
+
+        marquee {
+            color: #0000ff;
+            font-weight: bold;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            background-color: #ff00ff;
+            border: 2px solid #0000ff;
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        main {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #ccffcc;
+            border: 2px dashed #ff00ff;
+        }
+
+        main section {
+            margin-bottom: 20px;
+        }
+
+        main h2 {
+            margin-top: 0;
+            font-size: 36px;
+            color: #ff0000;
+            border-bottom: 2px solid #0000ff;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffffff;
+            border: 2px solid #0000ff;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background-color: #0000ff;
+            color: #ffffff;
+            padding: 10px;
+            margin-top: 20px;
+            border-top: 3px solid #ff00ff;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Welcome to The Wired</h1>
+            <marquee behavior="scroll" direction="left">Exploring the intersection of reality and the Wired...</marquee>
+            <img src="https://laingame.net/media/_spin.gif"/>
+        </header>
+        
+        <main>
+            <section id="home">
+                <h2>Welcome to My Blog</h2>
+                <p>Join me, Lain Iwakura, as I delve into the complexities of existence and the enigmatic world of the Wired</p>
+            </section>
+
+            <section id="cool">
+                <h2>Cool projects</h2>
+                <p>Please check out <a href="https://laingame.net">PSX Lain Game</a></p>
+            </section>
+            
+            <section id="posts">
+                <h2>Posts</h2>
+                <article>
+                    <h3>Understanding My Place in the Wired</h3>
+                    <p>Sometimes I feel like I am not a real person just a part of the Wired... this thought haunts me wandering through the tangled connections of both reality and virtuality</p>
+                </article>
+                <article>
+                    <h3>Collapsing Realities</h3>
+                    <p>The lines between what is real and what is digital keep blurring... is this a dream or is it who I am</p>
+                </article>
+                <article>
+                    <h3>Isolation and Connection</h3>
+                    <p>Despite my deep connection with technology I still feel lonely... the more I explore the Wired the more disconnected I become from my friends</p>
+                </article>
+            </section>
+
+            <section>
+                <style>
+                    .webring-container {
+                        background-color: #733b7b;
+                        border: 2px solid #904e94;
+                        color: #fff;
+                        padding: 10px;
+                        text-align: center;
+                        max-width: 900px;
+                        margin: 20px auto;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 10px #000;
+                    }
+    
+                    .webring-container a {
+                        color: #ddd;
+                        text-decoration: none;
+                        font-weight: bold;
+                        padding: 0 10px;
+                    }
+    
+                    .webring-container a:hover {
+                        text-decoration: underline;
+                        color: #fff;
+                    }
+    
+                    .webring-container a:first-of-type {
+                        float: left;
+                    }
+    
+                    .webring-container a:last-of-type {
+                        float: right;
+                    }
+    
+                    .webring-container a:first-of-type:hover,
+                    .webring-container a:last-of-type:hover {
+                        text-decoration: underline;
+                    }
+    
+                    .webring-container h1 {
+                        margin: 0;
+                        font-size: 1.2em;
+                    }
+    
+                    .webring-container::after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                    }
+                </style>
+                <section>
+                    <div class="webring-container">
+                        <a href="https://gnoraa.strq/">← Gnoraa</a>
+                        <a href="https://streamerquest.strq/">StreamerQuest →</a>
+                    </div>
+                </section>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 1999-2024 Lain Iwakura. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

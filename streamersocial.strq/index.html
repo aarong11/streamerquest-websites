@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamerSocial</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        #header {
+            background-color: #336699;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Main Layout */
+        #content {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Sidebar */
+        #sidebar {
+            width: 30%;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-right: 1px solid #cccccc;
+        }
+
+        #sidebar h2 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        #sidebar img {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #sidebar ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #sidebar ul li {
+            margin-bottom: 5px;
+        }
+
+        #sidebar ul li a {
+            text-decoration: none;
+            color: #336699;
+        }
+
+        /* Main Content */
+        #main-content {
+            padding: 10px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #social-box {
+            border: 1px solid #cccccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+
+        #social-box textarea {
+            width: 100%;
+            border: 1px solid #cccccc;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        #social-box button {
+            background-color: #336699;
+            color: #ffffff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        /* socials */
+        .social {
+            border-bottom: 1px solid #cccccc;
+            padding: 10px 0;
+        }
+
+        .social p {
+            margin: 0;
+        }
+
+        .social a {
+            color: #336699;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        #footer {
+            background-color: #336699;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>StreamerSocial</h1>
+            <p><em>What's happening?</em></p>
+        </div>
+
+        <div id="content">
+            <div id="sidebar">
+                <h2>Profile</h2>
+                <img src="https://via.placeholder.com/100" alt="Profile Picture">
+                <p><strong>Username</strong></p>
+
+                <h2>Trends</h2>
+                <ul>
+                    <li><a href="#">#2000sNostalgia</a></li>
+                    <li><a href="#">#Y2K</a></li>
+                    <li><a href="#">#TechHistory</a></li>
+                </ul>
+            </div>
+
+            <div id="main-content">
+                <div id="social-box">
+                    <textarea placeholder="What's happening?" rows="3"></textarea>
+                    <button>social</button>
+                </div>
+
+                <div class="social">
+                    <p><strong>@user1</strong>: This is a social! #HelloWorld</p>
+                </div>
+
+                <div class="social">
+                    <p><strong>@user2</strong>: Loving the early 2000s vibes. #Y2K</p>
+                </div>
+
+                <div class="social">
+                    <p><strong>@user3</strong>: Check out my new blog! <a href="#">http://myblog.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>&copy; 2000 StreamerSocial. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
